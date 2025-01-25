@@ -10,7 +10,7 @@ const Navbar = () => {
           href="#about-me"
           className="h-auto w-auto flex flex-row items-center"
         >
-          <span className="font-bold ml-[10px] hidden md:block text-gray-300">
+          <span className="font-bold ml-[30px] hidden md:block text-gray-300">
             Kumesha
           </span>
         </a>
@@ -26,15 +26,20 @@ const Navbar = () => {
             <a href="#projects" className="cursor-pointer">
               Projects
             </a>
-            <a href="#ContactMe" className="cursor-pointer">
-             contact Me
+            <a href="#contact" className="cursor-pointer">
+              Contact Me
             </a>
           </div>
         </div>
 
         <div className="flex flex-row gap-5">
-        {Socials.map((social) => (
-            <a href={social.link} target="_blank" rel="noopener noreferrer" key={social.name}>
+          {Socials.map((social) => (
+            <a
+              href={social.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={social.name}
+            >
               <Image
                 src={social.src}
                 alt={social.name}

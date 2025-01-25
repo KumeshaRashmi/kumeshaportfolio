@@ -14,7 +14,7 @@ const Projects = () => {
   }
   return (
     <div className="flex flex-col items-center justify-center py-20" id="projects">
-      <h1 className="text-[40px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
+      <h1 className="text-[80px] font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 py-20">
         My Projects
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 px-10">
@@ -31,7 +31,7 @@ const Projects = () => {
           githubLink="https://github.com/KumeshaRashmi/KumiAi-Bot"
         />
         <ProjectCard
-          src="/proj4.webp"
+          src="/proj45.png"
           title="Mobile Phone Price Predictor using Machine Learning"
           description="Develop a model to predict mobile phone prices using Linear Regression and Random Forest Regression. Optimize accuracy through feature selection and hyperparameter tuning, and identify key features influencing prices."
           githubLink="https://github.com/KumeshaRashmi/Mobile-Phone-Price-Predictor"
@@ -47,6 +47,18 @@ const Projects = () => {
           title="BudgetBolt Finance tracker website"
           description="BudgetBolt is a sleek finance tracker website built with HTML, CSS, and JavaScript. It helps users manage expenses, track budgets, and visualize spending trends with a user-friendly interface."
           githubLink="https://github.com/KumeshaRashmi/Budgetbolt.com"
+        />
+         <ProjectCard
+          src="/proj7.png"
+          title="Local Event Finder Mobile and Web App"
+          description="Built web and mobile apps to help users discover local events. Key features: QR codes, notifications, event filtering, and a recommendation system. Tools: Flutter, Firebase, Dart (mobile); MERN stack (web)."
+          githubLink="https://github.com/KumeshaRashmi/LEF-Mobile"
+        />
+        <ProjectCard
+          src="/proj8.png"
+          title="Decentralized Voting Platform"
+          description="A decentralized voting platform that ensures secure, transparent, and tamper-proof elections.Backend: Powered by the Ballerina programming language from WSO2 for seamless integration and reliability.Frontend: Built with React, TailwindCSS, and Vite for a fast and responsive user experience."
+          githubLink="https://github.com/KumeshaRashmi/iwb059-datadevils"
         />
         {/* Add more ProjectCard components as needed */}
       </div>

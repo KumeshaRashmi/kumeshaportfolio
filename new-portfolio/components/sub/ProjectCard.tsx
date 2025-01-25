@@ -11,24 +11,18 @@ interface Props {
 
 const ProjectCard = ({ src, title, description, githubLink }: Props) => {
   return (
-    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] min-w-[250px]">
+    <div className="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] min-w-[250px] transition-transform duration-300 ease-in-out transform hover:scale-105">
       <Image
         src={src}
         alt={title}
-        width={1000}
-        height={1000}
-        className="w-full object-contain"
+        width={400} // Specify the width
+        height={300} // Specify the height
+        className="w-full h-48 object-cover"
       />
-
-      <div className="relative p-4">
-        <h1 className="text-2xl font-semibold text-white">{title}</h1>
-        <p className="mt-2 text-gray-300">{description}</p>
-        <a
-          href={githubLink}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="flex items-center mt-5 text-blue-500"
-        >
+      <div className="p-4">
+        <h3 className="text-lg font-bold text-white">{title}</h3>
+        <p className="text-gray-400">{description}</p>
+        <a href={githubLink} target="_blank" rel="noopener noreferrer" className="flex items-center mt-2 text-purple-500 hover:underline">
           <RxGithubLogo className="mr-2" />
           View on GitHub
         </a>

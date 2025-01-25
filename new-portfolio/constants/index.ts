@@ -35,12 +35,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -96,24 +91,7 @@ export const Skill_data = [
   
   
   export const Frontend_skill = [
-    {
-      skill_name: "Html 5",
-      Image: "/html.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Css",
-      Image: "/css.png",
-      width: 80,
-      height: 80,
-    },
-    {
-      skill_name: "Java Script",
-      Image: "/js.png",
-      width: 65,
-      height: 65,
-    },
+   
     {
       skill_name: "Tailwind Css",
       Image: "/tailwind.png",
@@ -138,12 +116,7 @@ export const Skill_data = [
       width: 80,
       height: 80,
     },
-    {
-      skill_name: "React Query",
-      Image: "/reactquery.png",
-      width: 80,
-      height: 80,
-    },
+    
     {
       skill_name: "Type Script",
       Image: "/ts.png",
@@ -166,6 +139,12 @@ export const Skill_data = [
       height: 80,
     },
     {
+      skill_name: "Java",
+      Image: "/java.png",
+      width: 70,
+      height: 70,
+    },
+    {
       skill_name: "Express js",
       Image: "/express.png",
       width: 80,
@@ -184,8 +163,8 @@ export const Skill_data = [
       height: 55,
     },
     {
-      skill_name: "Postger SQL",
-      Image: "/postger.png",
+      skill_name: "Postman",
+      Image: "/postman.png",
       width: 70,
       height: 70,
     },
@@ -195,7 +174,18 @@ export const Skill_data = [
       width: 70,
       height: 70,
     },
-   
+    {
+      skill_name: "Ballerina",
+      Image: "/ballerina.jpg",
+      width: 70,
+      height: 70,
+    },
+    {
+      skill_name: "Python",
+      Image: "/python.png",
+      width: 70,
+      height: 70,
+    },
     
   ];
   
