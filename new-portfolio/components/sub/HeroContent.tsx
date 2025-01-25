@@ -62,7 +62,7 @@ const HeroContent = () => {
         {/* Download Button */}
         <motion.a
           variants={slideInFromLeft(1)}
-          href="https://drive.google.com/file/d/1VtUtyRdvDCHn_w4aNBqu35_sqrLD8Yn0/view?usp=sharing"
+          href="https://drive.google.com/file/d/1JEwUNdN6e4yF82at4Ea-NjZfEhnIo8qi/view?usp=drive_link"
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleDownloadClick}
