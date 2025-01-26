@@ -1,10 +1,14 @@
+"use client";
+import React from "react";
 import { Html, useProgress } from "@react-three/drei";
+import { motion } from "framer-motion";
 
 const CanvasLoader = () => {
     const { progress } = useProgress();
+
     return (
         <Html
-            as='div'
+            as="div"
             center
             style={{
                 display: "flex",
@@ -13,7 +17,24 @@ const CanvasLoader = () => {
                 flexDirection: "column",
             }}
         >
-            <span className='canvas-loader'></span>
+            <motion.span
+                className="canvas-loader"
+                animate={{
+                    rotate: [0, 360],
+                }}
+                transition={{
+                    duration: 1,
+                    repeat: Infinity,
+                    ease: "linear",
+                }}
+                style={{
+                    width: 50,
+                    height: 50,
+                    border: "5px solid #ccc",
+                    borderRadius: "50%",
+                    borderTop: "5px solid #F1F1F1",
+                }}
+            ></motion.span>
             <p
                 style={{
                     fontSize: 14,
@@ -28,4 +49,4 @@ const CanvasLoader = () => {
     );
 };
 
-export default CanvasLoader
+export default CanvasLoader;
