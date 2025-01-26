@@ -9,7 +9,7 @@ function Starfiled() {
         speedFactor={0.05}
         backgroundColor="black"
       />
-      {/* Other components */}
+    
     </div>
   );
 }

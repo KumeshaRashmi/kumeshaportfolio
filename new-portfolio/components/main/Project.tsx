@@ -48,7 +48,7 @@ const Projects = () => {
           description="BudgetBolt is a sleek finance tracker website built with HTML, CSS, and JavaScript. It helps users manage expenses, track budgets, and visualize spending trends with a user-friendly interface."
           githubLink="https://github.com/KumeshaRashmi/Budgetbolt.com"
         />
-         <ProjectCard
+        <ProjectCard
           src="/proj7.png"
           title="Local Event Finder Mobile and Web App"
           description="Built web and mobile apps to help users discover local events. Key features: QR codes, notifications, event filtering, and a recommendation system. Tools: Flutter, Firebase, Dart (mobile); MERN stack (web)."
@@ -60,7 +60,7 @@ const Projects = () => {
           description="A decentralized voting platform that ensures secure, transparent, and tamper-proof elections.Backend: Powered by the Ballerina programming language from WSO2 for seamless integration and reliability.Frontend: Built with React, TailwindCSS, and Vite for a fast and responsive user experience."
           githubLink="https://github.com/KumeshaRashmi/iwb059-datadevils"
         />
-        {/* Add more ProjectCard components as needed */}
+        
       </div>
     </div>
   );
