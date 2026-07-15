@@ -62,7 +62,7 @@ const HeroContent = () => {
         {/* Download Button */}
         <motion.a
           variants={slideInFromLeft(1)}
-          href="https://drive.google.com/file/d/1JEwUNdN6e4yF82at4Ea-NjZfEhnIo8qi/view?usp=drive_link"
+          href="https://drive.google.com/file/d/1J9OM0aC3h6ZPajMWAqj95eQgZ-JiF0TU/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleDownloadClick}
@@ -81,10 +81,12 @@ const HeroContent = () => {
   src="/my1.png"
   alt="work icons"
   priority
-  width={800}
-  height={800}
-  sizes="(max-width: 768px) 200px, 350px"
-  className="rounded-full"
+  width={1500}
+  height={1000}
+  /* 1. Update sizes so the browser downloads a larger quality image */
+  sizes="(max-width: 800px) 800px, 700px" 
+  /* 2. Add explicit Tailwind width/height classes to scale it up visually */
+  className="rounded-full w-[300px] h-[300px] md:w-[600px] md:h-[600px] object-cover"
 />
 
       </motion.div>
