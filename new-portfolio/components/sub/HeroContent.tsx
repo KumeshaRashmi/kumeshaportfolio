@@ -78,11 +78,11 @@ const HeroContent = () => {
         className="w-full h-full flex justify-center items-center"
       >
     <Image
-  src="/kum8.png"
+  src="/my1.png"
   alt="work icons"
   priority
-  width={350}
-  height={350}
+  width={800}
+  height={800}
   sizes="(max-width: 768px) 200px, 350px"
   className="rounded-full"
 />
